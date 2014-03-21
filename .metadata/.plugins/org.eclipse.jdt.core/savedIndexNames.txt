@@ -1,9 +1,0 @@
-INDEX VERSION 1.126+/home/wangyan/android/.metadata/.plugins/org.eclipse.jdt.core
-1572654320.index
-191481198.index
-615120967.index
-2144955910.index
-2089348824.index
-2741727132.index
-3039971204.index
-3376183957.index
