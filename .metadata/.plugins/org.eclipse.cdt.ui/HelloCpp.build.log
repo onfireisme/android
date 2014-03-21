@@ -1,0 +1,15 @@
+
+**** Build of configuration Default for project HelloCpp ****
+
+bash /usr/mobile-game-engine/cocos2d-x/samples/Cpp/HelloCpp/proj.android/build_native.sh 
+NDK_ROOT = /usr/java/android-ndk-r9d
+COCOS2DX_ROOT = /usr/mobile-game-engine/cocos2d-x/samples/Cpp/HelloCpp/proj.android/../../../..
+APP_ROOT = /usr/mobile-game-engine/cocos2d-x/samples/Cpp/HelloCpp/proj.android/..
++ /usr/java/android-ndk-r9d/ndk-build -C /usr/mobile-game-engine/cocos2d-x/samples/Cpp/HelloCpp/proj.android NDK_MODULE_PATH=/usr/mobile-game-engine/cocos2d-x/samples/Cpp/HelloCpp/proj.android/../../../..:/usr/mobile-game-engine/cocos2d-x/samples/Cpp/HelloCpp/proj.android/../../../../cocos2dx/platform/third_party/android/prebuilt
+APP_ANDROID_ROOT = /usr/mobile-game-engine/cocos2d-x/samples/Cpp/HelloCpp/proj.android
+Using prebuilt externals
+Android NDK: WARNING: APP_PLATFORM android-9 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+Android NDK: WARNING:/usr/mobile-game-engine/cocos2d-x/samples/Cpp/HelloCpp/proj.android/../../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+make: Entering directory `/usr/mobile-game-engine/cocos2d-x/samples/Cpp/HelloCpp/proj.android'
+[armeabi] Install        : libhellocpp.so => libs/armeabi/libhellocpp.so
+make: Leaving directory `/usr/mobile-game-engine/cocos2d-x/samples/Cpp/HelloCpp/proj.android'

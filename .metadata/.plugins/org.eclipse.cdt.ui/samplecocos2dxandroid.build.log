@@ -1,0 +1,10 @@
+
+**** Clean-only build of configuration Default for project samplecocos2dxandroid ****
+
+bash /home/wangyan/下载/cocos2dx_space_game/samplecocos2dxandroid/proj.android/build_native.sh NDK_DEBUG=1 V=1 clean 
+NDK_ROOT = /Users/jjordan/Development/Android_NDK/android-ndk-r8d
+COCOS2DX_ROOT = /Users/jjordan/Development/Cocos2D-X/cocos2d-2.1beta3-x-2.1.1
+APP_ROOT = /home/wangyan/下载/cocos2dx_space_game/samplecocos2dxandroid/proj.android/..
+APP_ANDROID_ROOT = /home/wangyan/下载/cocos2dx_space_game/samplecocos2dxandroid/proj.android
+Using prebuilt externals
+/home/wangyan/下载/cocos2dx_space_game/samplecocos2dxandroid/proj.android/build_native.sh: 行 90: /Users/jjordan/Development/Android_NDK/android-ndk-r8d/ndk-build: 没有那个文件或目录

@@ -1,0 +1,1740 @@
+!SESSION 2014-03-12 15:40:54.611 -----------------------------------------------
+eclipse.buildId=v22.3.0-887826
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2014-03-12 15:56:25.793
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2014-03-12 15:56:25.803
+!MESSAGE session context was:(profile=profile, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2014-03-12 15:56:25.803
+!MESSAGE No repository found containing: osgi.bundle,com.android.ide.eclipse.adt,22.6.0.v201403010043-1049357
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2014-03-12 15:56:25.803
+!MESSAGE No repository found containing: osgi.bundle,com.android.ide.eclipse.adt.package,22.6.0.v201403010043-1049357
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2014-03-12 15:56:25.803
+!MESSAGE No repository found containing: osgi.bundle,com.android.ide.eclipse.base,22.6.0.v201403010043-1049357
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2014-03-12 15:56:25.803
+!MESSAGE No repository found containing: osgi.bundle,com.android.ide.eclipse.ddms,22.6.0.v201403010043-1049357
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2014-03-12 15:56:25.803
+!MESSAGE No repository found containing: osgi.bundle,com.android.ide.eclipse.gldebugger,22.6.0.v201403010043-1049357
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2014-03-12 15:56:25.803
+!MESSAGE No repository found containing: osgi.bundle,com.android.ide.eclipse.hierarchyviewer,22.6.0.v201403010043-1049357
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2014-03-12 15:56:25.803
+!MESSAGE No repository found containing: osgi.bundle,com.android.ide.eclipse.ndk,22.6.0.v201403010043-1049357
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2014-03-12 15:56:25.803
+!MESSAGE No repository found containing: osgi.bundle,com.android.ide.eclipse.traceview,22.6.0.v201403010043-1049357
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2014-03-12 15:56:25.803
+!MESSAGE No repository found containing: osgi.bundle,overlay.com.android.ide.eclipse.adt.overlay,22.6.0.v201403010043-1049357
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2014-03-12 15:56:25.803
+!MESSAGE No repository found containing: org.eclipse.update.feature,com.android.ide.eclipse.adt,22.6.0.v201403010043-1049357
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2014-03-12 15:56:25.803
+!MESSAGE No repository found containing: org.eclipse.update.feature,com.android.ide.eclipse.ddms,22.6.0.v201403010043-1049357
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2014-03-12 15:56:25.803
+!MESSAGE No repository found containing: org.eclipse.update.feature,com.android.ide.eclipse.gldebugger,22.6.0.v201403010043-1049357
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2014-03-12 15:56:25.803
+!MESSAGE No repository found containing: org.eclipse.update.feature,com.android.ide.eclipse.hierarchyviewer,22.6.0.v201403010043-1049357
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2014-03-12 15:56:25.803
+!MESSAGE No repository found containing: org.eclipse.update.feature,com.android.ide.eclipse.ndk,22.6.0.v201403010043-1049357
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2014-03-12 15:56:25.803
+!MESSAGE No repository found containing: org.eclipse.update.feature,com.android.ide.eclipse.traceview,22.6.0.v201403010043-1049357
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-03-12 15:56:49.620
+!MESSAGE Failed to load properties file for project 'test'
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-03-12 15:56:51.541
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2014-03-12 18:30:30.518 -----------------------------------------------
+eclipse.buildId=v22.3.0-887826
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.equinox.p2.operations 2 0 2014-03-12 19:24:33.935
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2014-03-12 19:24:33.935
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-03-12 19:24:33.935
+!MESSAGE "C/C++ Development Tools" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-03-12 19:24:33.935
+!MESSAGE "C/C++ Development Platform" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-03-12 19:24:33.935
+!MESSAGE "C/C++ DSF GDB Debugger Integration" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-03-12 19:24:33.935
+!MESSAGE "C/C++ GNU Toolchain Build Support" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-03-12 19:24:33.935
+!MESSAGE "C/C++ GNU Toolchain Debug Support" will be ignored because a newer version is already installed. 
+
+!ENTRY org.eclipse.equinox.p2.operations 2 0 2014-03-12 19:24:33.974
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2014-03-12 19:24:33.974
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-03-12 19:24:33.975
+!MESSAGE "C/C++ Development Tools" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-03-12 19:24:33.975
+!MESSAGE "C/C++ Development Platform" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-03-12 19:24:33.975
+!MESSAGE "C/C++ DSF GDB Debugger Integration" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-03-12 19:24:33.975
+!MESSAGE "C/C++ GNU Toolchain Build Support" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-03-12 19:24:33.975
+!MESSAGE "C/C++ GNU Toolchain Debug Support" will be ignored because a newer version is already installed. 
+
+!ENTRY org.eclipse.osgi 2 1 2014-03-12 19:24:43.567
+!MESSAGE NLS unused message: CacheManager_CannotLoadNonUrlLocation in: org.eclipse.equinox.internal.p2.repository.messages
+!SESSION 2014-03-12 19:28:39.319 -----------------------------------------------
+eclipse.buildId=v22.3.0-887826
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-03-12 20:21:25.328
+!MESSAGE Failed to load properties file for project 'test'
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-03-12 20:21:27.879
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-03-12 20:25:17.760
+!MESSAGE Exception occurred while saving project preferences: /HelloCpp/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/usr/mobile-game-engine/cocos2d-x/samples/Cpp/HelloCpp/proj.android/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:511)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:420)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:294)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-03-12 20:25:17.761
+!MESSAGE A resource already exists on disk '/usr/mobile-game-engine/cocos2d-x/samples/Cpp/HelloCpp/proj.android/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-03-12 20:25:17.762
+!MESSAGE Exception occurred while saving project preferences: /HelloCpp/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/usr/mobile-game-engine/cocos2d-x/samples/Cpp/HelloCpp/proj.android/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:513)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:420)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:294)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-03-12 20:25:17.762
+!MESSAGE A resource already exists on disk '/usr/mobile-game-engine/cocos2d-x/samples/Cpp/HelloCpp/proj.android/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-03-12 20:25:17.763
+!MESSAGE Exception occurred while saving project preferences: /HelloCpp/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/usr/mobile-game-engine/cocos2d-x/samples/Cpp/HelloCpp/proj.android/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:515)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:420)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:294)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-03-12 20:25:17.763
+!MESSAGE A resource already exists on disk '/usr/mobile-game-engine/cocos2d-x/samples/Cpp/HelloCpp/proj.android/.settings'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-03-12 20:25:23.902
+!MESSAGE Indexed 'HelloCpp' (1 sources, 139 headers) in 2.53 sec: 1,687 declarations; 1,608 references; 94 unresolved inclusions; 520 syntax errors; 139 unresolved names (4.05%)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-03-12 20:28:42.907
+!MESSAGE Unable to execute dex: java.nio.BufferOverflowException. Check the Eclipse log for stack trace.
+!STACK 0
+java.nio.BufferOverflowException
+	at java.nio.Buffer.nextPutIndex(Buffer.java:519)
+	at java.nio.HeapByteBuffer.putShort(HeapByteBuffer.java:315)
+	at com.android.dex.Dex$Section.writeShort(Dex.java:818)
+	at com.android.dex.Dex$Section.writeTypeList(Dex.java:870)
+	at com.android.dx.merge.DexMerger$3.write(DexMerger.java:437)
+	at com.android.dx.merge.DexMerger$3.write(DexMerger.java:423)
+	at com.android.dx.merge.DexMerger$IdMerger.mergeUnsorted(DexMerger.java:317)
+	at com.android.dx.merge.DexMerger.mergeTypeLists(DexMerger.java:423)
+	at com.android.dx.merge.DexMerger.mergeDexes(DexMerger.java:163)
+	at com.android.dx.merge.DexMerger.merge(DexMerger.java:187)
+	at com.android.dx.command.dexer.Main.mergeLibraryDexBuffers(Main.java:439)
+	at com.android.dx.command.dexer.Main.runMonoDex(Main.java:287)
+	at com.android.dx.command.dexer.Main.run(Main.java:230)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.android.ide.eclipse.adt.internal.build.DexWrapper.run(DexWrapper.java:187)
+	at com.android.ide.eclipse.adt.internal.build.BuildHelper.executeDx(BuildHelper.java:813)
+	at com.android.ide.eclipse.adt.internal.build.builders.PostCompilerBuilder.build(PostCompilerBuilder.java:597)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:321)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:396)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:618)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:597)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:124)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.doFullIncrementalDebugBuild(ProjectHelper.java:1116)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.launch(LaunchConfigDelegate.java:147)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2014-03-12 20:33:35.661 -----------------------------------------------
+eclipse.buildId=v22.3.0-887826
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-03-12 20:33:57.555
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2014-03-12 20:39:56.431 -----------------------------------------------
+eclipse.buildId=v22.3.0-887826
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-03-12 20:40:06.510
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-03-12 20:45:46.251
+!MESSAGE Unable to execute dex: java.nio.BufferOverflowException. Check the Eclipse log for stack trace.
+!STACK 0
+java.nio.BufferOverflowException
+	at java.nio.Buffer.nextPutIndex(Buffer.java:519)
+	at java.nio.HeapByteBuffer.putShort(HeapByteBuffer.java:315)
+	at com.android.dex.Dex$Section.writeShort(Dex.java:818)
+	at com.android.dex.Dex$Section.writeTypeList(Dex.java:870)
+	at com.android.dx.merge.DexMerger$3.write(DexMerger.java:437)
+	at com.android.dx.merge.DexMerger$3.write(DexMerger.java:423)
+	at com.android.dx.merge.DexMerger$IdMerger.mergeUnsorted(DexMerger.java:317)
+	at com.android.dx.merge.DexMerger.mergeTypeLists(DexMerger.java:423)
+	at com.android.dx.merge.DexMerger.mergeDexes(DexMerger.java:163)
+	at com.android.dx.merge.DexMerger.merge(DexMerger.java:187)
+	at com.android.dx.command.dexer.Main.mergeLibraryDexBuffers(Main.java:439)
+	at com.android.dx.command.dexer.Main.runMonoDex(Main.java:287)
+	at com.android.dx.command.dexer.Main.run(Main.java:230)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.android.ide.eclipse.adt.internal.build.DexWrapper.run(DexWrapper.java:187)
+	at com.android.ide.eclipse.adt.internal.build.BuildHelper.executeDx(BuildHelper.java:813)
+	at com.android.ide.eclipse.adt.internal.build.builders.PostCompilerBuilder.build(PostCompilerBuilder.java:597)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:321)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:396)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:618)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:597)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:124)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.doFullIncrementalDebugBuild(ProjectHelper.java:1116)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.launch(LaunchConfigDelegate.java:147)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-03-12 20:49:05.080
+!MESSAGE Unable to execute dex: java.nio.BufferOverflowException. Check the Eclipse log for stack trace.
+!STACK 0
+java.nio.BufferOverflowException
+	at java.nio.Buffer.nextPutIndex(Buffer.java:519)
+	at java.nio.HeapByteBuffer.putShort(HeapByteBuffer.java:315)
+	at com.android.dex.Dex$Section.writeShort(Dex.java:818)
+	at com.android.dex.Dex$Section.writeTypeList(Dex.java:870)
+	at com.android.dx.merge.DexMerger$3.write(DexMerger.java:437)
+	at com.android.dx.merge.DexMerger$3.write(DexMerger.java:423)
+	at com.android.dx.merge.DexMerger$IdMerger.mergeUnsorted(DexMerger.java:317)
+	at com.android.dx.merge.DexMerger.mergeTypeLists(DexMerger.java:423)
+	at com.android.dx.merge.DexMerger.mergeDexes(DexMerger.java:163)
+	at com.android.dx.merge.DexMerger.merge(DexMerger.java:187)
+	at com.android.dx.command.dexer.Main.mergeLibraryDexBuffers(Main.java:439)
+	at com.android.dx.command.dexer.Main.runMonoDex(Main.java:287)
+	at com.android.dx.command.dexer.Main.run(Main.java:230)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.android.ide.eclipse.adt.internal.build.DexWrapper.run(DexWrapper.java:187)
+	at com.android.ide.eclipse.adt.internal.build.BuildHelper.executeDx(BuildHelper.java:813)
+	at com.android.ide.eclipse.adt.internal.build.builders.PostCompilerBuilder.build(PostCompilerBuilder.java:597)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:321)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:396)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:618)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:597)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:124)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.doFullIncrementalDebugBuild(ProjectHelper.java:1116)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.launch(LaunchConfigDelegate.java:147)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2014-03-12 20:49:29.649 -----------------------------------------------
+eclipse.buildId=v22.3.0-887826
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-03-12 20:49:42.904
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2014-03-12 20:51:50.137 -----------------------------------------------
+eclipse.buildId=v22.3.0-887826
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-03-12 20:52:00.812
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2014-03-12 20:54:28.957 -----------------------------------------------
+eclipse.buildId=v22.3.0-887826
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-03-12 20:54:30.791
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-03-12 20:54:39.949
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-03-12 21:07:11.029
+!MESSAGE Unable to execute dex: java.nio.BufferOverflowException. Check the Eclipse log for stack trace.
+!STACK 0
+java.nio.BufferOverflowException
+	at java.nio.Buffer.nextPutIndex(Buffer.java:519)
+	at java.nio.HeapByteBuffer.putShort(HeapByteBuffer.java:315)
+	at com.android.dex.Dex$Section.writeShort(Dex.java:818)
+	at com.android.dex.Dex$Section.writeTypeList(Dex.java:870)
+	at com.android.dx.merge.DexMerger$3.write(DexMerger.java:437)
+	at com.android.dx.merge.DexMerger$3.write(DexMerger.java:423)
+	at com.android.dx.merge.DexMerger$IdMerger.mergeUnsorted(DexMerger.java:317)
+	at com.android.dx.merge.DexMerger.mergeTypeLists(DexMerger.java:423)
+	at com.android.dx.merge.DexMerger.mergeDexes(DexMerger.java:163)
+	at com.android.dx.merge.DexMerger.merge(DexMerger.java:187)
+	at com.android.dx.command.dexer.Main.mergeLibraryDexBuffers(Main.java:439)
+	at com.android.dx.command.dexer.Main.runMonoDex(Main.java:287)
+	at com.android.dx.command.dexer.Main.run(Main.java:230)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.android.ide.eclipse.adt.internal.build.DexWrapper.run(DexWrapper.java:187)
+	at com.android.ide.eclipse.adt.internal.build.BuildHelper.executeDx(BuildHelper.java:813)
+	at com.android.ide.eclipse.adt.internal.build.builders.PostCompilerBuilder.build(PostCompilerBuilder.java:597)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:321)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:396)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:618)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:597)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:124)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.doFullIncrementalDebugBuild(ProjectHelper.java:1116)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.launch(LaunchConfigDelegate.java:147)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-03-12 21:09:23.407
+!MESSAGE Unable to execute dex: java.nio.BufferOverflowException. Check the Eclipse log for stack trace.
+!STACK 0
+java.nio.BufferOverflowException
+	at java.nio.Buffer.nextPutIndex(Buffer.java:519)
+	at java.nio.HeapByteBuffer.putShort(HeapByteBuffer.java:315)
+	at com.android.dex.Dex$Section.writeShort(Dex.java:818)
+	at com.android.dex.Dex$Section.writeTypeList(Dex.java:870)
+	at com.android.dx.merge.DexMerger$3.write(DexMerger.java:437)
+	at com.android.dx.merge.DexMerger$3.write(DexMerger.java:423)
+	at com.android.dx.merge.DexMerger$IdMerger.mergeUnsorted(DexMerger.java:317)
+	at com.android.dx.merge.DexMerger.mergeTypeLists(DexMerger.java:423)
+	at com.android.dx.merge.DexMerger.mergeDexes(DexMerger.java:163)
+	at com.android.dx.merge.DexMerger.merge(DexMerger.java:187)
+	at com.android.dx.command.dexer.Main.mergeLibraryDexBuffers(Main.java:439)
+	at com.android.dx.command.dexer.Main.runMonoDex(Main.java:287)
+	at com.android.dx.command.dexer.Main.run(Main.java:230)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.android.ide.eclipse.adt.internal.build.DexWrapper.run(DexWrapper.java:187)
+	at com.android.ide.eclipse.adt.internal.build.BuildHelper.executeDx(BuildHelper.java:813)
+	at com.android.ide.eclipse.adt.internal.build.builders.PostCompilerBuilder.build(PostCompilerBuilder.java:597)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:321)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:396)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:618)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:597)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:124)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.doFullIncrementalDebugBuild(ProjectHelper.java:1116)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.launch(LaunchConfigDelegate.java:147)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2014-03-12 21:15:00.088 -----------------------------------------------
+eclipse.buildId=v22.3.0-887826
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-03-12 21:15:22.930
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2014-03-12 21:17:16.875 -----------------------------------------------
+eclipse.buildId=v22.3.0-887826
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-03-12 21:17:31.876
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2014-03-14 12:03:41.852 -----------------------------------------------
+eclipse.buildId=v22.3.0-887826
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-03-14 12:04:49.901
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-14 12:05:10.518
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:127)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:112)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:395)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-14 12:05:10.520
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:127)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:112)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:395)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-14 12:05:10.521
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:127)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:112)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:395)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-14 12:05:10.522
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:127)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:112)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:395)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-14 12:05:10.525
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:127)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:112)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:395)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-14 12:05:10.535
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:127)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:112)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:395)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-14 12:05:10.537
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:127)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:112)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:395)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.jface 2 0 2014-03-14 12:05:27.337
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-03-14 12:05:27.337
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@10c3bd4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@10c3bd4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-03-14 12:05:27.337
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2be824,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@95ce0b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@95ce0b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-03-14 12:05:27.338
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@10a44e3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@130b992,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@130b992,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-03-14 12:05:27.338
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1e72808,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@f54a19,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@f54a19,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-03-14 12:05:27.338
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.editor,Open Declaration,
+		Open an editor on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1d3bc1c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1e2da62,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1e2da62,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-03-14 12:05:27.338
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.declarations.in.workspace,Declaration in Workspace,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@6f6327,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Find Declaration,
+		Find Declaration,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@d6c6e7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Find Declaration,
+		Find Declaration,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@d6c6e7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-03-14 12:05:27.338
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.references.in.workspace,References in Workspace,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@9c80bd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,Find References,
+		Find References,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@c82be5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,Find References,
+		Find References,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@c82be5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-03-14 12:05:27.338
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.call.hierarchy,Open Call Hierarchy,
+		Open a call hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1b9f800,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@48dc60,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@48dc60,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-03-14 12:05:27.338
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@17c3435,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@147b386,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@147b386,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-03-14 12:40:44.286
+!MESSAGE Indexed 'maze' (1 sources, 139 headers) in 2.78 sec: 1,687 declarations; 1,608 references; 94 unresolved inclusions; 520 syntax errors; 139 unresolved names (4.05%)
+!SESSION 2014-03-14 12:42:00.358 -----------------------------------------------
+eclipse.buildId=v22.3.0-887826
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-03-14 12:42:23.185
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-03-14 12:58:52.346
+!MESSAGE Exception occurred while saving project preferences: /samplecocos2dxandroid/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/home/wangyan/下载/cocos2dx_space_game/samplecocos2dxandroid/proj.android/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:511)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:420)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:294)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-03-14 12:58:52.348
+!MESSAGE A resource already exists on disk '/home/wangyan/下载/cocos2dx_space_game/samplecocos2dxandroid/proj.android/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-03-14 12:58:52.364
+!MESSAGE Exception occurred while saving project preferences: /samplecocos2dxandroid/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/home/wangyan/下载/cocos2dx_space_game/samplecocos2dxandroid/proj.android/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:513)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:420)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:294)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-03-14 12:58:52.364
+!MESSAGE A resource already exists on disk '/home/wangyan/下载/cocos2dx_space_game/samplecocos2dxandroid/proj.android/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-03-14 12:58:52.365
+!MESSAGE Exception occurred while saving project preferences: /samplecocos2dxandroid/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/home/wangyan/下载/cocos2dx_space_game/samplecocos2dxandroid/proj.android/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:515)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:420)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:294)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-03-14 12:58:52.365
+!MESSAGE A resource already exists on disk '/home/wangyan/下载/cocos2dx_space_game/samplecocos2dxandroid/proj.android/.settings'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-03-14 12:59:04.395
+!MESSAGE Indexed 'samplecocos2dxandroid' (1 sources, 13 headers) in 0.14 sec: 10 declarations; 4 references; 18 unresolved inclusions; 0 syntax errors; 37 unresolved names (72.55%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-03-14 13:17:16.004
+!MESSAGE Indexed 'MyMaze' (1 sources, 139 headers) in 2.71 sec: 1,687 declarations; 1,608 references; 94 unresolved inclusions; 520 syntax errors; 139 unresolved names (4.05%)
+!SESSION 2014-03-14 13:34:03.476 -----------------------------------------------
+eclipse.buildId=v22.3.0-887826
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-03-14 13:35:14.886
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2014-03-14 15:34:18.235 -----------------------------------------------
+eclipse.buildId=v22.3.0-887826
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-03-14 15:35:03.367
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2014-03-14 20:08:02.086 -----------------------------------------------
+eclipse.buildId=v22.3.0-887826
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-14 20:19:51.730
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:127)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:112)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:395)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-14 20:19:51.779
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:127)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:112)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:395)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-14 20:19:51.780
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:127)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:112)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:395)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-14 20:19:51.781
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:127)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:112)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:395)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-14 20:19:51.782
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:127)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:112)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:395)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-14 20:19:51.783
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:127)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:112)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:395)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-14 20:19:51.783
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:127)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:112)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:395)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+!SESSION 2014-03-14 20:37:50.389 -----------------------------------------------
+eclipse.buildId=v22.3.0-887826
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-03-14 20:37:52.280
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-14 20:38:05.419
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:71)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:84)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:409)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-14 20:38:05.433
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:71)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:84)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:409)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-14 20:38:05.435
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:71)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:84)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:409)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-14 20:38:05.436
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:71)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:84)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:409)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-14 20:38:05.437
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:71)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:84)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:409)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-14 20:38:05.438
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:71)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:84)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:409)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-14 20:38:05.440
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:71)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:84)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:409)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+!SESSION 2014-03-14 20:40:37.586 -----------------------------------------------
+eclipse.buildId=v22.3.0-887826
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-03-14 20:40:39.594
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-03-14 21:55:39.931
+!MESSAGE Indexed 'maze1' (1 sources, 139 headers) in 1.24 sec: 1,687 declarations; 1,608 references; 94 unresolved inclusions; 520 syntax errors; 139 unresolved names (4.05%)
+!SESSION 2014-03-14 21:59:47.984 -----------------------------------------------
+eclipse.buildId=v22.3.0-887826
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-03-14 21:59:49.822
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2014-03-14 22:10:12.869 -----------------------------------------------
+eclipse.buildId=v22.3.0-887826
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-15 02:09:18.603
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:127)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:112)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:395)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-15 02:09:18.965
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:127)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:112)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:395)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-15 02:09:18.967
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:127)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:112)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:395)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-15 02:09:18.968
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:127)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:112)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:395)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-15 02:09:18.969
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:127)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:112)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:395)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-15 02:09:18.972
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:127)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:112)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:395)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2014-03-15 02:09:18.982
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: {launchModes=>{RUN_ON_FULL_BUILD=>true,RUN_ON_INC_BUILD=>true,RUN_ON_FILE_OPEN=>false,RUN_ON_FILE_SAVE=>false,RUN_AS_YOU_TYPE=>true,RUN_ON_DEMAND=>true}}:java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:149)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.setProblemPreferenceValues(CodanPreferencesLoader.java:147)
+	at org.eclipse.cdt.codan.internal.core.CodanPreferencesLoader.load(CodanPreferencesLoader.java:126)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:378)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.getResourceProfile(CheckersRegistry.java:385)
+	at org.eclipse.cdt.codan.internal.core.CheckersRegistry.isCheckerEnabled(CheckersRegistry.java:420)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:134)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.runInEditor(CodanBuilder.java:192)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:29)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:94)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:2979)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:127)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:112)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:395)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+Caused by: java.lang.IllegalArgumentException: {
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:182)
+	at org.eclipse.cdt.codan.core.param.MapProblemPreference.importValue(MapProblemPreference.java:147)
+	... 19 more
